@@ -1,0 +1,53 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+   background-color:aliceblue;
+}
+
+.navigation-link {
+    border: 2px solid transparent;
+}
+
+.navigation-link:hover {
+        text-decoration: none;
+        border-bottom: 2px solid #f5ba09; 
+        transition: 0.5s ease; 
+}
+
+.main-container {
+    min-height: 70vh;
+    padding-top: 5rem;
+}
+
+.main_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-row h1 {
+    font-size: 5rem;
+}
+
+#about {
+    background-color: paleturquoise;
+    border-radius: 0.5rem;
+}
+
+.card {
+    border-bottom: 8px rgb(186, 143, 188);
+}
+
+#help {
+   background-color: burlywood;
+}
+
+.media-link {
+    padding: 1rem;
+    max-width: 15rem;
+    margin-left: 1rem;
+    border: 2px rosybrown;
+    border-radius: 0.5rem;
+}
